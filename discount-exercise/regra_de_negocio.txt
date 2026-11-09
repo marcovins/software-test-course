@@ -1,0 +1,6 @@
+REGRAS DO NEGÓCIO:
+Se a pessoa tem menos que 18 anos e é estudante tem desconto de 5% 
+Se a pessoa tem menos que 18 anos e estuda e trabalha - tem desconto de 8%
+Se a pessoa tem entre 18 e  60 e só estuda não tem desconto
+Se a pessoa tem entre 18 e 60 estuda e trabalha tem desconto de 15%
+Se a pessoa tem mais que 60 tem desconto de 10%
