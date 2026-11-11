@@ -1,0 +1,15 @@
+REGRAS DO NEGÓCIO:
+A classe ALUNO_ACADEMIA contém nome, sexo, peso, altura e idade.
+O IMC é calculado por peso / (altura * altura), com peso em kg e altura em metros.
+Peso e altura negativos ou iguais a zero geram ValueError.
+
+Para ser VIP:
+Homem com idade >= 40: IMC < 30.
+Homem com idade < 40: IMC < 28.
+Mulher com idade >= 40: IMC < 28.
+Mulher com idade < 40: IMC < 26.
+O IMC exatamente igual ao limite não configura VIP.
+
+Convenção de entrada: sexo aceita M/F, masculino/feminino ou homem/mulher,
+sem diferenciar maiúsculas e minúsculas e ignorando espaços nas extremidades.
+Outros valores de sexo geram ValueError.
