@@ -1,0 +1,57 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.2.0, pluggy-1.7.0 -- /home/marcos/Faculdade/teste_de_software/software-test-course/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/marcos/Faculdade/teste_de_software/software-test-course/academy-exercise
+configfile: pytest.ini
+collecting ... collected 47 items
+
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_e_altura_positivos[altura-decimal] PASSED [  2%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_e_altura_positivos[altura-inteira] PASSED [  4%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_e_altura_positivos[imc-24] PASSED [  6%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_ou_altura_invalidos[peso-negativo] PASSED [  8%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_ou_altura_invalidos[peso-zero] PASSED [ 10%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_ou_altura_invalidos[altura-negativa] PASSED [ 12%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_ou_altura_invalidos[altura-zero] PASSED [ 14%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_ou_altura_invalidos[ambos-negativos] PASSED [ 17%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_ou_altura_invalidos[peso-negativo-altura-zero] PASSED [ 19%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_ou_altura_invalidos[peso-zero-altura-negativa] PASSED [ 21%]
+academy-exercise/tests/test_aluno_academia.py::test_calculo_imc_com_peso_ou_altura_invalidos[ambos-zero] PASSED [ 23%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-40-imc-abaixo] PASSED [ 25%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-41-vip] PASSED [ 27%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-60-vip] PASSED [ 29%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-18-vip] PASSED [ 31%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-30-vip] PASSED [ 34%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-39-imc-abaixo] PASSED [ 36%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-jovem-imc-no-limite] PASSED [ 38%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-jovem-imc-acima] PASSED [ 40%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-40-imc-no-limite] PASSED [ 42%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[homem-60-imc-acima] PASSED [ 44%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-40-imc-abaixo] PASSED [ 46%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-41-vip] PASSED [ 48%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-60-vip] PASSED [ 51%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-18-vip] PASSED [ 53%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-30-vip] PASSED [ 55%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-39-imc-abaixo] PASSED [ 57%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-jovem-imc-no-limite] PASSED [ 59%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-jovem-imc-acima] PASSED [ 61%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-40-imc-no-limite] PASSED [ 63%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip[mulher-60-imc-acima] PASSED [ 65%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip_rejeita_medidas_invalidas[peso-zero-homem] PASSED [ 68%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip_rejeita_medidas_invalidas[peso-zero-mulher] PASSED [ 70%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip_rejeita_medidas_invalidas[peso-negativo-homem] PASSED [ 72%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip_rejeita_medidas_invalidas[peso-negativo-mulher] PASSED [ 74%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip_rejeita_medidas_invalidas[altura-zero-homem] PASSED [ 76%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip_rejeita_medidas_invalidas[altura-zero-mulher] PASSED [ 78%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip_rejeita_medidas_invalidas[altura-negativa-homem] PASSED [ 80%]
+academy-exercise/tests/test_aluno_academia.py::test_classificacao_vip_rejeita_medidas_invalidas[altura-negativa-mulher] PASSED [ 82%]
+academy-exercise/tests/test_aluno_academia.py::test_formatos_de_sexo[sigla-m] PASSED [ 85%]
+academy-exercise/tests/test_aluno_academia.py::test_formatos_de_sexo[masculino] PASSED [ 87%]
+academy-exercise/tests/test_aluno_academia.py::test_formatos_de_sexo[homem] PASSED [ 89%]
+academy-exercise/tests/test_aluno_academia.py::test_formatos_de_sexo[sigla-f-com-espacos] PASSED [ 91%]
+academy-exercise/tests/test_aluno_academia.py::test_formatos_de_sexo[feminino] PASSED [ 93%]
+academy-exercise/tests/test_aluno_academia.py::test_formatos_de_sexo[mulher] PASSED [ 95%]
+academy-exercise/tests/test_aluno_academia.py::test_sexo_invalido[vazio] PASSED [ 97%]
+academy-exercise/tests/test_aluno_academia.py::test_sexo_invalido[desconhecido] PASSED [100%]
+
+- generated xml file: /home/marcos/Faculdade/teste_de_software/software-test-course/academy-exercise/results/results.xml -
+============================== 47 passed in 0.11s ==============================
